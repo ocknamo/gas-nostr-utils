@@ -1,0 +1,30 @@
+{
+  "name": "gas-nostr-client-lib",
+  "version": "1.0.0",
+  "description": "nostr client library for google AppsScript",
+  "main": "index.js",
+  "scripts": {
+    "clasp": "clasp",
+    "prebuild": "rm -rf dist",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "nostr",
+    "GAS"
+  ],
+  "author": "ocknamo",
+  "license": "MIT",
+  "dependencies": {
+    "nostr-tools": "^1.5.0"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.57",
+    "esbuild": "^0.17.9",
+    "esbuild-gas-plugin": "^0.5.0"
+  },
+  "engines": {
+    "node": "^v18.14.1",
+    "yarn": "^1.22.4"
+  }
+}
