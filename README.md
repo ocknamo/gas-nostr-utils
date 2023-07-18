@@ -1,4 +1,4 @@
-# [WIP]gas-nostr-client-lib
+# [WIP]gas-nostr-utils
 
 Don't trust. Verify.
 
